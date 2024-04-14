@@ -9,18 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@copilotkit/react-core": "^0.24.0",
+    "@copilotkit/react-textarea": "^0.34.0",
+    "@copilotkit/react-ui": "^0.21.0",
+    "axios": "^1.6.8",
+    "jspdf": "^2.5.1",
+    "next": "14.2.1",
+    "openai": "^4.33.1",
+    "preline": "^2.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.1"
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/typography": "^0.5.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.1"
+    "typescript": "^5"
   }
 }
